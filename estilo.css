@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#principal {
+	background: #FFC107;
+	min-height: 400px;
+}
+
+#principal nav ul a {
+	color: #7F6003;
+}
+
+#principal nav ul a:hover {
+	color: #333;
+}
+
+#conteudo-header h1 {
+	font-size: 56px;
+}
+
+#conteudo-header div div button{
+	font-size: 20px;
+}
+
+article {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid lightgrey;
+}
+
+@media(max-width: 575px){
+	#conteudo-header div div button {
+		font-size: 14px;
+	}
+}
+
+@media(min-width: 768px){
+	#principal {
+		background: #FFC107;
+		height: 555px;
+	}
+
+	div#conteudo-header #conteudo-header-left{
+		margin-top: 50px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991.98px){
+	#conteudo-header div div button {
+		font-size: 16px;
+	}
+}
